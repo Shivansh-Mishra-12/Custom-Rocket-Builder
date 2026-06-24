@@ -25,7 +25,7 @@ const Container = () => {
                     }
                 }}>
                     <Model position={[0, -0.3, 0]} scale={.003} Select_Handle={Select_Handle} />
-                    <StrongBack position={[0.63, -1, 0]} scale={.12} Select_Handle={Select_Handle} />
+                    <StrongBack position={[0.63, -.8, 0]} scale={.12} Select_Handle={Select_Handle} />
                 </group>
                 <group rotation={[Math.PI / 2, 0, 0]} position={[0, -1, 0]} >
                     <mesh >

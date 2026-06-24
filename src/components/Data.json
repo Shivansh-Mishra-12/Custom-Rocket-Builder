@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "Body", "obj": 0
+    },
+    { "id": 3, "name": "GlassHouse", "obj": 5
+    },
+    { "id": 4, "name": "Alloys", "obj": 22
+    },
+    { "id": 5, "name": "Ext. Parts", "obj": 10
+    }
+]

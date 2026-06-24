@@ -1,0 +1,16 @@
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  /* background: #535252; */
+  background: #000;
+  color: beige;
+  height: 100vh !important;
+  width: 100vw !important;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}

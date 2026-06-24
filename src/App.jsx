@@ -119,7 +119,7 @@ const App = () => {
         camera={{ position: [2.5, 1, 3.8], rotation: [-0.5, 0.5, 0.3] }}
         className='z-10'
       >
-        <Perf position="top-left" />
+        <Perf position="top-right" />
 
 
         <Container />

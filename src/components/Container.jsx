@@ -7,6 +7,7 @@ import { useLoader } from '@react-three/fiber'
 import SLS1 from './SLS1'
 const Container = () => {
     const nMap = useLoader(TextureLoader, '../textures/coast_land_rocks_01_diff_2k.jpg')
+    const selected_part_Ref = useRef()
     const Select_Handle = (obj) => {
         if (selected_part_Ref.current) {
             selected_part_Ref.current.material.emissive?.set(0x000000)

@@ -4,11 +4,9 @@ import Model from '../components/Model'
 import { BoxGeometry, TextureLoader } from 'three'
 import { useRef } from 'react'
 import { useLoader } from '@react-three/fiber'
-import Boosters from './Boosters'
-import FalconHeavy from './FalconHeavy'
+import SLS1 from './SLS1'
 const Container = () => {
     const nMap = useLoader(TextureLoader, '../textures/coast_land_rocks_01_diff_2k.jpg')
-    const selected_part_Ref = useRef()
     const Select_Handle = (obj) => {
         if (selected_part_Ref.current) {
             selected_part_Ref.current.material.emissive?.set(0x000000)
@@ -26,9 +24,10 @@ const Container = () => {
                         selected_part_Ref.current = null
                     }
                 }}>
-                    <FalconHeavy position={[0, .7, 1.3]}  scale={.009} Select_Handle={Select_Handle} />
-                    <StrongBack position={[0,0,-5]} rotation={[0,Math.PI/2,0]} scale={.12} Select_Handle={Select_Handle} />
-                    {/* <Boosters position={[0,0,-.21]} scale={0.02} rotation={[-Math.PI/2,0,0]}  Select_Handle={Select_Handle}/> */}
+
+                    <SLS1 Select_Handle={Select_Handle} position={[0,.5,0]} />
+                    <StrongBack position={[0,-1,0]} rotation={[0, (Math.PI / 2), 0]} scale={5} Select_Handle={Select_Handle} />
+
                 </group>
                 <group rotation={[Math.PI / 2, 0, 0]} position={[0, -1, 0]} >
                     <mesh >

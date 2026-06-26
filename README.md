@@ -28,7 +28,6 @@ Custom Rocket Builder is a 3D configurator-style website built for rocket enthus
 | 3D Helpers | Drei (`@react-three/drei`) |
 | Deployment | Vercel |
 
-> Update this table to match your actual stack if it differs.
 
 ---
 
@@ -75,10 +74,10 @@ Will be revealed soon!
 ## Roadmap
 
 - [ ] Rotate, zoom, and pan around models
-- [ ] Part-level customization (colors, materials, components)
-- [ ] Rocket comparison mode
-- [ ] Animated launch sequence
-- [ ] Shareable rocket configuration URLs
+<!-- - [ ] Part-level customization (colors, materials, components) -->
+<!-- - [ ] Rocket comparison mode -->
+<!-- - [ ] Animated launch sequence -->
+<!-- - [ ] Shareable rocket configuration URLs -->
 - [ ] Mobile touch support
 
 ---

@@ -3,7 +3,7 @@ import React from 'react'
 import { useRef } from 'react'
 
 const StrongBack = ({Select_Handle , ...props}) => {
-  const { scene } = useGLTF('../models/spacex_falcon_9_strongback.glb')
+  const { scene } = useGLTF('../models/launcher.glb')
   return (
     <group {...props}>
       <primitive object={scene}
